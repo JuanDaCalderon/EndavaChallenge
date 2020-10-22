@@ -1,0 +1,106 @@
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #161a1d;
+  }
+
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron h1 {
+    font-weight: 300;
+    color:#fff;
+    
+  }
+  
+  .jumbotron p{
+    color: #fff!important;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  
+  .card-body{
+    background-color: #a4161a !important;
+    color: #fff; 
+  }
+  
+  .navbar{
+    background-color: #161a1d!important;
+    color: #fff!important;
+    
+  }
+  .shadow{
+    position: relative;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1)inset;
+  }
+  .shadow:before,
+  .shadow::after{
+    content: '';
+    position: absolute;
+    z-index:-1;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:10px;
+    right: 10pox;
+    border-radius: 100px/10px;
+  }
+  .blue{
+    background-color: #161a1d!important;
+  }
+  .btnrojo{
+    background-color: #a4161a;
+    color: #fff;
+  }
+  .enunciado{
+    color: #e5383b;
+  }
+  div.HeaderSinergia button.btn{
+    color: #fff!important;
+  }
+  
+  .search{
+    width: 8000%!important;
+  }
+  .text-muted{
+    color: #cacaca!important;
+  }
+  div.Banner{
+    padding: 0px 18%;
+  }
+  input.form-control.mr-lg-2{
+      min-width: 575px;
+      border-radius: 500px;
+  }
+  div.BannerOut{
+    background-color: #35425c;
+  }
+  .sombra {
+    box-shadow: 0 0 3.25rem rgba(0,0,0,0.75)!important;
+}
+main.MainInfo{
+  margin-top: 3.5%;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  
+}
+@media (max-width: 960px) {
+  main.MainInfo{
+    margin-top: 12%;
+  }
+}
+@media (max-width: 400px) {
+  main.MainInfo{
+    margin-top: 38%;
+  }
+}
